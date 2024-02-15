@@ -61,7 +61,8 @@ plot(st_geometry(points), col = 'black', pch = 19)
 plot(st_geometry(line_sf_line), col = 'red')
 plot(polygon_sf, col = 'green')
 
-###Below are the additional Lab 2 Questions:
+
+###Below are the additional Lab 2 Questions
 
 ## Question 1: Determine the mean Per Capita Income in the United States.
 #The mean per capita income in the United States is 26093.12
