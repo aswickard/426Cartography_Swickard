@@ -101,7 +101,7 @@ ggplot() +
   )
 
 #Save to JPEG
-pdf("Relief_Map.pdf")
+jpeg("Relief_Map.pdf")
 ggplot() + 
   geom_sf(data = clipped_idw, aes(fill = var1.pred), color = NA, size = 0.3) +
   geom_sf(data = abq, fill = NA, color = "black", size = 0.4) +
